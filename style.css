@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #481E14  ;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background: #57A6A1;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+header p {
+    text-align: center;
+    /* color:; */
+}
+
+section {
+    padding: 20px 0;
+}
+
+h2 {
+    /* text-align: center; */
+    padding: 10px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 5px 0;
+}
+
+form button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: 0;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    color: brown    ;
+}
